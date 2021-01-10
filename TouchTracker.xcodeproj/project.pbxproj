@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		FD5AEBE625A9DF2200F60C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5AEBE525A9DF2200F60C5F /* AppDelegate.m */; };
 		FD5AEBE925A9DF2200F60C5F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5AEBE825A9DF2200F60C5F /* SceneDelegate.m */; };
-		FD5AEBEC25A9DF2200F60C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5AEBEB25A9DF2200F60C5F /* ViewController.m */; };
 		FD5AEBEF25A9DF2200F60C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5AEBED25A9DF2200F60C5F /* Main.storyboard */; };
 		FD5AEBF125A9DF2700F60C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5AEBF025A9DF2700F60C5F /* Assets.xcassets */; };
 		FD5AEBF425A9DF2700F60C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5AEBF225A9DF2700F60C5F /* LaunchScreen.storyboard */; };
 		FD5AEBF725A9DF2700F60C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5AEBF625A9DF2700F60C5F /* main.m */; };
+		FD5AEBFF25A9DF4C00F60C5F /* QQZLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5AEBFE25A9DF4C00F60C5F /* QQZLine.m */; };
+		FD7569E225AB3E9F005AA45A /* QQZCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7569E125AB3E9F005AA45A /* QQZCircle.m */; };
+		FDC695BF25A9E0290017EDDE /* QQZDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC695BE25A9E0290017EDDE /* QQZDrawView.m */; };
+		FDC695C225A9E0790017EDDE /* QQZDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC695C125A9E0790017EDDE /* QQZDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,19 @@
 		FD5AEBE525A9DF2200F60C5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FD5AEBE725A9DF2200F60C5F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		FD5AEBE825A9DF2200F60C5F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FD5AEBEA25A9DF2200F60C5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD5AEBEB25A9DF2200F60C5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD5AEBEE25A9DF2200F60C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD5AEBF025A9DF2700F60C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD5AEBF325A9DF2700F60C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD5AEBF525A9DF2700F60C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5AEBF625A9DF2700F60C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD5AEBFD25A9DF4C00F60C5F /* QQZLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQZLine.h; sourceTree = "<group>"; };
+		FD5AEBFE25A9DF4C00F60C5F /* QQZLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZLine.m; sourceTree = "<group>"; };
+		FD7569E025AB3E9F005AA45A /* QQZCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQZCircle.h; sourceTree = "<group>"; };
+		FD7569E125AB3E9F005AA45A /* QQZCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZCircle.m; sourceTree = "<group>"; };
+		FDC695BD25A9E0290017EDDE /* QQZDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQZDrawView.h; sourceTree = "<group>"; };
+		FDC695BE25A9E0290017EDDE /* QQZDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZDrawView.m; sourceTree = "<group>"; };
+		FDC695C025A9E0790017EDDE /* QQZDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQZDrawViewController.h; sourceTree = "<group>"; };
+		FDC695C125A9E0790017EDDE /* QQZDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +74,19 @@
 				FD5AEBE525A9DF2200F60C5F /* AppDelegate.m */,
 				FD5AEBE725A9DF2200F60C5F /* SceneDelegate.h */,
 				FD5AEBE825A9DF2200F60C5F /* SceneDelegate.m */,
-				FD5AEBEA25A9DF2200F60C5F /* ViewController.h */,
-				FD5AEBEB25A9DF2200F60C5F /* ViewController.m */,
 				FD5AEBED25A9DF2200F60C5F /* Main.storyboard */,
 				FD5AEBF025A9DF2700F60C5F /* Assets.xcassets */,
 				FD5AEBF225A9DF2700F60C5F /* LaunchScreen.storyboard */,
 				FD5AEBF525A9DF2700F60C5F /* Info.plist */,
 				FD5AEBF625A9DF2700F60C5F /* main.m */,
+				FD5AEBFD25A9DF4C00F60C5F /* QQZLine.h */,
+				FD5AEBFE25A9DF4C00F60C5F /* QQZLine.m */,
+				FDC695BD25A9E0290017EDDE /* QQZDrawView.h */,
+				FDC695BE25A9E0290017EDDE /* QQZDrawView.m */,
+				FDC695C025A9E0790017EDDE /* QQZDrawViewController.h */,
+				FDC695C125A9E0790017EDDE /* QQZDrawViewController.m */,
+				FD7569E025AB3E9F005AA45A /* QQZCircle.h */,
+				FD7569E125AB3E9F005AA45A /* QQZCircle.m */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -102,6 +117,7 @@
 		FD5AEBD925A9DF2200F60C5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QQZ;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Qiqiuzhe;
 				TargetAttributes = {
@@ -146,10 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5AEBEC25A9DF2200F60C5F /* ViewController.m in Sources */,
+				FD5AEBFF25A9DF4C00F60C5F /* QQZLine.m in Sources */,
+				FDC695C225A9E0790017EDDE /* QQZDrawViewController.m in Sources */,
 				FD5AEBE625A9DF2200F60C5F /* AppDelegate.m in Sources */,
+				FD7569E225AB3E9F005AA45A /* QQZCircle.m in Sources */,
 				FD5AEBF725A9DF2700F60C5F /* main.m in Sources */,
 				FD5AEBE925A9DF2200F60C5F /* SceneDelegate.m in Sources */,
+				FDC695BF25A9E0290017EDDE /* QQZDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

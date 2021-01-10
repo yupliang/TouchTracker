@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QQZDrawViewController.h
 //  TouchTracker
 //
 //  Created by Qiqiuzhe on 2021/1/9.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface QQZDrawViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
