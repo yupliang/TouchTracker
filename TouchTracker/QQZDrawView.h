@@ -12,11 +12,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QQZDrawView : UIView
+@interface QQZDrawView : UIView <UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) NSMutableDictionary *lineInProgress;
 @property (nonatomic, strong) NSMutableArray *finishedLines;
 @property (nonatomic, strong) NSMutableArray *circles;
+@property (nonatomic, weak) QQZLine *selectedLine;
+@property (nonatomic, strong) UIPanGestureRecognizer *moveRecognizer;
 
 @end
 
